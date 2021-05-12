@@ -1,0 +1,13 @@
+Ropper:
+https://github.com/sashs/Ropper
+
+View strings:
+    - rabin2 -z <filename>
+
+View imports:
+    - rabin2 -i <filename>
+
+View binary sections: 
+    - rabin2 -S <filename>
+    - in gdb: "maintenance info sections"
+

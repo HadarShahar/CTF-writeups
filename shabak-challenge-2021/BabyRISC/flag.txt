@@ -1,0 +1,1 @@
+flag{RISC_doesnt_reduce_amount_of_bugs_after_all}

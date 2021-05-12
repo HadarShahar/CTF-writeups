@@ -1,0 +1,26 @@
+
+Do you have another message for me?
+Nope
+Sorry
+Oh Well
+Did you get the message?
+Yes
+What is it?
+A Secret
+Message?
+Yes
+flag{L3m0n-SqueeZy}
+Good Luck!
+Hi
+Hello
+Message?
+Talk To Alice
+
+
+
+
+
+I tried to search in the dll without success:
+
+C:\Users\user\Downloads\SharpDllLoader\SharpDllLoader\bin\Release\SharpDllLoader.exe
+-d "C:\Users\user\Desktop\Hadar\shabak_challenge\ForceCoin\ForceCoin.exe" -c ForceCoin.AppForm -m SignBlock
